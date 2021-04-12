@@ -4,9 +4,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="AvaloniaApplication1.MainWindow"
-        Title="AvaloniaApplication1">
+        Title="AvaloniaApplication1"
+        MinHeight="90"
+        MinWidth="520"
+        MaxWidth="520"
+        MaxHeight="90"
+        Height="90"
+        Width="520"
+        >
   <StackPanel>
-    <TextBlock>Привествую вас в Парсере</TextBlock>
+    <TextBlock>Привествую вас в Парсере пожалуйста выбер файл для конвертации</TextBlock>
     <Button Name="btn"  Click="OnClickCommand"  >Выбрать файл</Button>
+    <Button Name="btn1"  Click="OnClickCommand1"  >Путь для ковертации</Button>
   </StackPanel>
 </Window>
