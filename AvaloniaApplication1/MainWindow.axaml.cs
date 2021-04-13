@@ -51,6 +51,13 @@ namespace AvaloniaApplication1
             string[] result = await dialog.ShowAsync(this);
             return string.Join(" ", result);
         }
+        public async Task<string> GetPathSave()
+        {
+            SaveFileDialog dialog2 = new SaveFileDialog();
+            dialog2.Filters.Add(new FileDialogFilter() { Name = "All", Extensions = { "*" } });
+            string result = await dialog2.ShowAsync(this);
+            return string.Join(" ", result);
+        }
         
         private void WordToXML(string path)
         {
@@ -236,7 +243,7 @@ namespace AvaloniaApplication1
         }
         public async void OnClickCommand1 (object sender, RoutedEventArgs args)
         {
-            await;
+           string _path = await GetPathSave();
 
         }
     }
