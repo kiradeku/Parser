@@ -244,6 +244,7 @@ namespace AvaloniaApplication1
         public async void OnClickCommand1 (object sender, RoutedEventArgs args)
         {
            string _path = await GetPathSave();
+           WordToXML(_path);
 
         }
     }
