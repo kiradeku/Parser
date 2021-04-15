@@ -247,5 +247,10 @@ namespace AvaloniaApplication1
            WordToXML(_path);
 
         }
+
+        public async void OnClickCommand2(object sender, RoutedEventArgs args)
+        {
+
+        }
     }
 }
