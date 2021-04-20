@@ -1,32 +1,48 @@
 <!doctype html>
+
 <html>
- <head>
-  <meta charset="utf-8">
-  <title>Пример</title>
- </head>
+ 
+<head>
+  
+<meta charset="utf-8">
+  
+<title>Пример</title>
+ 
+</head>
+
 <body> 
+
 <style>
-#outer-grid {
-  display: grid;
-  grid-template-columns: 100vh;
-  grid-template-columns: 100vw;
-  grid-auto-flow: column;
-  align-self: center;
-  justify-self: center;
+#outer-grid > 
+div 
+{   width: 350px;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    position: fixed;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: purple;
+
+  
 }
-#outer-grid > div {
-  background-color: orangered;
-  color: white;
-  font-size: 1vw;
-  padding: 8px;
-}
+
 </style>
+
 <div id="outer-grid">
-  <div><p style="text-align: center">Привествую вас в нашем конвертаторе пожалуйстай выберите файл для конвертации <p style="text-align: center"><button onclick="document.getElementById('file-input').click();">Кнопка с текстом</button>
+  
+<div>
+<p style="text-align: center">Привествую вас в нашем конвертаторе пожалуйстай выберите файл для конвертации <p style="text-align: center"><button onclick="document.getElementById('file-input').click();">Кнопка с текстом</button>
+
 <input id="file-input" type="file" name="name" style="display: none;" />
-  <div></div>
-  <div><p style="text-align: center">1</div>
-  </div>
+  
+<div></div>
+  
+<div><p style="text-align: center">1</div>
+  
+</div>
 </div>
 </body>
+
 </html>
