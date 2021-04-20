@@ -1,0 +1,12 @@
+C:\Users\kogda\Desktop\Convertors\Convertors\obj\Debug\net5.0\Convertors.csprojAssemblyReference.cache
+C:\Users\kogda\Desktop\Convertors\Convertors\obj\Debug\net5.0\Convertors.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kogda\Desktop\Convertors\Convertors\obj\Debug\net5.0\Convertors.AssemblyInfoInputs.cache
+C:\Users\kogda\Desktop\Convertors\Convertors\obj\Debug\net5.0\Convertors.AssemblyInfo.cs
+C:\Users\kogda\Desktop\Convertors\Convertors\obj\Debug\net5.0\Convertors.csproj.CoreCompileInputs.cache
+C:\Users\kogda\Desktop\Convertors\Convertors\bin\Debug\net5.0\Convertors.deps.json
+C:\Users\kogda\Desktop\Convertors\Convertors\bin\Debug\net5.0\Convertors.dll
+C:\Users\kogda\Desktop\Convertors\Convertors\bin\Debug\net5.0\ref\Convertors.dll
+C:\Users\kogda\Desktop\Convertors\Convertors\bin\Debug\net5.0\Convertors.pdb
+C:\Users\kogda\Desktop\Convertors\Convertors\obj\Debug\net5.0\Convertors.dll
+C:\Users\kogda\Desktop\Convertors\Convertors\obj\Debug\net5.0\ref\Convertors.dll
+C:\Users\kogda\Desktop\Convertors\Convertors\obj\Debug\net5.0\Convertors.pdb
