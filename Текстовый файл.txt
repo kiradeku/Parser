@@ -39,7 +39,7 @@ div
   
 <div></div>
   
-<div><p style="text-align: center">1</div>
+<div><p style="text-align: center">Тут будут наши ошибки</div>
   
 </div>
 </div>
