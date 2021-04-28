@@ -33,7 +33,7 @@ div
 <div id="outer-grid">
   
 <div>
-<p style="text-align: center">Привествую вас в нашем конвертаторе пожалуйстай выберите файл для конвертации <p style="text-align: center"><button onclick="document.getElementById('file-input').click();">Кнопка с текстом</button>
+<p style="text-align: center">Привествую вас в нашем парсере пожалуйстай выберите файл для конвертации <p style="text-align: center"><button onclick="document.getElementById('file-input').click();">Кнопка с текстом</button>
 
 <input id="file-input" type="file" name="name" style="display: none;" />
   
